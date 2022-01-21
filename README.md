@@ -35,11 +35,13 @@ They want to repeat the initial school district analysis by replacing the math a
     - District summary changed in the number of students and lightly in average scores and % of passing students as the following graphs show.  This is because 9th grade students at Thomas High School represent **1.2%** of total students.
 
     |Initial District summary |![Initial District Summary](/Resources/initial_district_summary.png)|
+    |:------------------------|:-------------------------------------------------------------------|
     |Final District summary   |![New District Summary](/Resources/new_district_summary.png)        |
 
     - School summary.  By taking out grades of 9th grade students at Thomas High School, the % of passing math and reading were affected, as the number of students remained the same and grades for 9th grade students were set to NaN. This affected Thomas High School performance relative to the other schools.  So, we had to adjust the % of passing grades by taking into consideration only the grades and number of students for 10th to 12th graders at Thomas High School.
 
     |Initial School summary |![Initial District Summary](/Resources/initial_school_summary.png)|
+    |:----------------------|:-----------------------------------------------------------------|
     |Final School summary   |![New District Summary](/Resources/new_school_summary.png)        |
 
 
@@ -50,21 +52,25 @@ They want to repeat the initial school district analysis by replacing the math a
 - Impact on Thomas High School overall grades.  By replacing 461 grades by NaN values, the passing percentages of this school dropped, because the student count included 9th graders. 
 
     |Initial THS grades summary |![Initial THS Summary](/Resources/initial_ths_grades.png)|
+    |:--------------------------|:--------------------------------------------------------|
     |Final THS grades summary   |![New THS Summary](/Resources/new_ths_grades.png)        |
 
 - Math and reading scores by grade. The only impact in average scores by grade is in the 9th grade for Thomas High School, as it was the only grades substituted by NaN values.
 
     |**Math scores by grade**                             |**Reading scores by grade**                                |
+    |:---------------------------------------------------:|:---------------------------------------------------------:|
     |![math scores by grade](/Resources/math_by_grade.png)|![reading scores by grade](/Resources/reading_by_grade.png)|
 
 - Scores by school spending. Thomas High School is in the spending range per student of $630-644. After having only considered 10th to 12th graders in the data, the average change was minimal.  
 
     |Initial Spending summary |![Initial Spending Summary](/Resources/init_spending_sum.png)|
+    |:------------------------|:------------------------------------------------------------|
     |Final Spending summary   |![New Spending Summary](/Resources/new_spending_sumary.png)  |
 
 - Scores by school size. In the same toke, Thomas High School is in the Medium(1000-2000) size category. Change was minimal.
 
     |Initial Size summary |![Initial Spending Summary](/Resources/init_size_sum.png)|
+    |:--------------------|:--------------------------------------------------------|
     |Final Size summary   |![New Spending Summary](/Resources/new_size_sum.png)     |
 
 - Scores by school type.  Thomas High School is Charter School.  After modifications, there was no apparent change in the scores by school type.
