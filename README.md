@@ -63,9 +63,9 @@ They want to repeat the initial school district analysis by replacing the math a
 
 - Scores by school spending. Thomas High School is in the spending range per student of $630-644. After having only considered 10th to 12th graders in the data, the average change was minimal.  
 
-    |Initial Spending summary |![Initial Spending Summary](/Resources/init_spending_sum.png)|
+    |Initial Spending summary |![Initial Spending Summary](/Resources/init_speding_sum.png)|
     |:------------------------|:------------------------------------------------------------|
-    |Final Spending summary   |![New Spending Summary](/Resources/new_spending_sumary.png)  |
+    |Final Spending summary   |![New Spending Summary](/Resources/new_speding_sumary.png)  |
 
 - Scores by school size. In the same toke, Thomas High School is in the Medium(1000-2000) size category. Change was minimal.
 
