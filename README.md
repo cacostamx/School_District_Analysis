@@ -4,7 +4,7 @@
 
 ### Initial Analysis
 
-The School District provided datasets of schools and student data for an analysis on the performance of school's students based on thir math and reading grades.
+The School District provided datasets of schools and student data for an analysis on the performance of school's students based on their math and reading grades.
 
 After cleaning the data and summarizing it, reports on school spending, school size and school types were performed to assess the top and bottom schools according to the passing grades for math and reading.
 
@@ -15,7 +15,7 @@ The school board notified Maria evidence of academic dishonesty; specifically, r
 They want to repeat the initial school district analysis by replacing the math and reading scores for Thomas High School and describe how these changes affected the overall analysis.
 
 ### Resources
-- Data source: The audit was performed on the file "election_results.cvs" provided by the Colorado Board of Election. The following image shows the structure of the file.
+- Data source: The audit was performed on the file "election_results.cvs" provided by the Colorado Board of Election.
 
 - Software use to perform the analysis: Python 3.7.11, Anacoda 4.11, Jupyter Notebook 6.4.6
 
@@ -79,7 +79,7 @@ They want to repeat the initial school district analysis by replacing the math a
 
 ## Summary
 
-We can summarize these for affections in updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs:
+We can summarize thes affections in updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs:
 
 1. There were 461 students whose grades were replaced with NaNs. They represent 1.2% of Thomas High School total students. 
 2. Total math average passing percentage changed from 75.0% to 74.8%
